@@ -70,5 +70,5 @@ class fefeVentana(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = fefeVentana()
-    window.show()  # Obligatorio (dentro del init o fuera)
+    window.show() 
     app.exec()
